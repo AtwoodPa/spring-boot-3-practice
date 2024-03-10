@@ -1,8 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e6400f2-80cc-4495-ba9f-7d8646c7012c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/Configuration1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/Configuration2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/DbProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/JavastackProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/MemberProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/OtherMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application-main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config/app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config/db-config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../Tool/maven/maven_jar" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Tool/maven/maven_3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Tool/maven/maven_3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2dS9mnCKSjKFdxGU7NCZwNNYu4G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Library/PP/Java/github/spring-boot-3-practice/spring-boot-properties/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oi.pp.boot.properties.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot-properties" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="oi.pp.boot.properties.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.boot.properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e6400f2-80cc-4495-ba9f-7d8646c7012c" name="Changes" comment="" />
+      <created>1709990773950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709990773950</updated>
+      <workItem from="1709990776121" duration="3285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

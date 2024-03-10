@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "name": "javastack",
+      "type": "oi.pp.boot.properties.props.JavastackProperties",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "member",
+      "type": "oi.pp.boot.properties.props.MemberProperties",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "javastack.author",
+      "type": "java.lang.String",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.name",
+      "type": "java.lang.String",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.params",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.security",
+      "type": "oi.pp.boot.properties.props.Security",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.site",
+      "type": "java.lang.String",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "javastack.users",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "oi.pp.boot.properties.props.JavastackProperties"
+    },
+    {
+      "name": "member.age",
+      "type": "java.lang.Integer",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "member.birthday",
+      "type": "java.util.Date",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties"
+    },
+    {
+      "name": "member.country",
+      "type": "java.lang.String",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties",
+      "defaultValue": "China"
+    },
+    {
+      "name": "member.name",
+      "type": "java.lang.String",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties"
+    },
+    {
+      "name": "member.sex",
+      "type": "java.lang.Integer",
+      "sourceType": "oi.pp.boot.properties.props.MemberProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
