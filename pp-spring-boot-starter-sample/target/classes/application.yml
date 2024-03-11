@@ -1,0 +1,10 @@
+pp:
+  starter:
+   enabled: true
+
+debug: true
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

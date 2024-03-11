@@ -19,11 +19,12 @@
 <!--        <module>spring-boot-webflux</module>-->
 <!--        <module>spring-boot-logging</module>-->
 <!--        <module>spring-boot-test</module>-->
-<!--        <module>javastack-spring-boot-starter</module>-->
+        <module>pp-spring-boot-starter</module>
 <!--        <module>javastack-spring-boot-starter-sample</module>-->
         <module>spring-boot-properties</module>
         <module>spring-boot-mail</module>
-        <module>pp-spring-boot-starter</module>
+        <module>pp-spring-boot-starter-sample</module>
+
         <!--        <module>spring-boot-redis</module>-->
 <!--        <module>spring-boot-mongodb</module>-->
 <!--        <module>spring-boot-elasticsearch</module>-->

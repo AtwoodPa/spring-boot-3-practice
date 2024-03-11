@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6400f2-80cc-4495-ba9f-7d8646c7012c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/java/oi/pp/boot/starter/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/java/oi/pp/boot/starter/config/TestServiceAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/java/oi/pp/boot/starter/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter-sample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter-sample/src/main/java/oi/pp/boot/starter_sample/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter-sample/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/java/oi/pp/boot/starter/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/java/oi/pp/boot/starter/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/target/classes/oi/pp/boot/starter/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pp-spring-boot-starter/target/classes/oi/pp/boot/starter/service/TestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/target/pp-spring-boot-starter-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pp-spring-boot-starter/target/pp-spring-boot-starter-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp-spring-boot-starter/target/pp-spring-boot-starter-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/pp-spring-boot-starter/target/pp-spring-boot-starter-1.0.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +54,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.pp-spring-boot-starter [clean].executor": "Run",
+    "Maven.pp-spring-boot-starter [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application (3).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Library/PP/Java/github/spring-boot-3-practice/spring-boot-mail/src/main/resources",
+    "last_opened_file_path": "/Library/PP/Java/github/spring-boot-3-practice/pp-spring-boot-starter/src/main/resources/META-INF/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,26 +76,59 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pp-spring-boot-starter/src/main/resources/META-INF/spring" />
+      <recent name="$PROJECT_DIR$/pp-spring-boot-starter-sample/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-mail/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="oi.pp.boot.properties.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (3)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="spring-boot-mail" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="oi.pp.boot.mail.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="pp-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="oi.pp.boot.starter.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="pp-spring-boot-starter-sample" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="oi.pp.boot.starter_sample.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.boot.starter_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -128,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709990773950</updated>
-      <workItem from="1709990776121" duration="5786000" />
+      <workItem from="1709990776121" duration="6742000" />
     </task>
     <servers />
   </component>

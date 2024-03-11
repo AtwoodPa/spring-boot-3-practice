@@ -7,6 +7,6 @@ package oi.pp.boot.starter.service;
 public class TestService {
 
         public String getServiceName() {
-            return "PP-Starter";
+            return "PP-Starter1";
         }
 }
