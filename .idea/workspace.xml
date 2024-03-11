@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6400f2-80cc-4495-ba9f-7d8646c7012c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/Configuration1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/Configuration2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/DbProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/JavastackProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/MemberProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/java/oi/pp/boot/properties/props/OtherMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application-main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config/app.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config/db-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/oi/pp/boot/mail/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/oi/pp/boot/mail/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/java/oi/pp/boot/mail/MailProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mail/src/main/resources/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Library/PP/Java/github/spring-boot-3-practice/spring-boot-properties/src/main/resources",
+    "last_opened_file_path": "/Library/PP/Java/github/spring-boot-3-practice/spring-boot-mail/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-mail/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-properties/src/main/resources/config" />
       <recent name="$PROJECT_DIR$" />
@@ -127,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709990773950</updated>
-      <workItem from="1709990776121" duration="3285000" />
+      <workItem from="1709990776121" duration="4697000" />
     </task>
     <servers />
   </component>
